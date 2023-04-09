@@ -20,7 +20,7 @@ public class notas {
  * y las almacena en las variables correspondientes uf1, uf2 y uf3.
  * */
 	
-	public void IngresaNotas() {
+	public void IngresarNotas() {
 		
 		System.out.println("ingrese las notas del estudiante una por una");
 		
@@ -42,7 +42,7 @@ public class notas {
  * o iguales a 10) e imprime un mensaje indicando si cada nota es correcta o no.
  * */
 	
-	public void comprobarcion(){
+	public void comprobacion(){
 		
 		if (uf1>10) {
 			System.out.println(" nota1 mal introducida");
@@ -129,9 +129,9 @@ public class notas {
 		
 		notas fc= new notas();
 		
-		fc.IngresaNotas();
+		fc.IngresarNotas();
 		
-		fc.comprobarcion();
+		fc.comprobacion();
 		
 		fc.Calculonotas();
 		
