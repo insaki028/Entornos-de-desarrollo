@@ -22,16 +22,16 @@ public class notas {
 	
 	public void IngresaNotas() {
 		
-		System.out.println("ingrese las notas del estudiante");
+		System.out.println("ingrese las notas del estudiante una por una");
 		
 		
-		System.out.print("ingrese nota 1: ");
+		System.out.print("ingrese nota numero 1: ");
 		uf1= entrada.nextDouble();
 
-		System.out.print("ingrese nota 2: ");
+		System.out.print("ingrese nota numero 2: ");
 		uf2= entrada.nextDouble();
 		
-		System.out.print("ingrese nota 3: ");
+		System.out.print("ingrese nota numero 3: ");
 		uf3= entrada.nextDouble();
 		
 	}
